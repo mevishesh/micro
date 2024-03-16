@@ -1,0 +1,42 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: rgb(169, 13, 13);
+}
+h.nda {
+    font-size: 50px;
+}
+img.ndalogo {
+    border-radius: 50px;
+    height: 100px; width: auto;
+    margin-right: 20px;
+}
+img.satya {
+    height: 150px; width: 90px;
+}
+img.seventyfive {
+    height: 150px; width: 150px;
+}
+
+@media (min-width:100px ) and (max-width: 425px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        background-color: black;
+    }
+    img.ndalogo {
+        border-radius: 30px;
+        height: 60px; width: auto;
+    }
+    img.satya {
+        height: 80px; width: 50px;
+    }
+    img.seventyfive {
+        height: 80px; width: 80px;
+    }
+    h.nda {
+        font-size: 20px;
+    }
+}
